@@ -82,19 +82,19 @@ Comprehensive test suite demonstrating:
 ### Using G++
 ```bash
 # Compile the program
-g++ -std=c++11 Test.cpp House.cpp -o monopoly_test
+g++ -std=c++11 Test.cpp House.cpp -o monopoly
 
 # Run the program
-./monopoly_test
+./monopoly
 ```
 
 ### Using GCC
 ```bash
 # Compile the program
-gcc -std=c++11 Test.cpp House.cpp -o monopoly_test -lstdc++
+gcc -std=c++11 Test.cpp House.cpp -o monopoly -lstdc++
 
 # Run the program
-./monopoly_test
+./monopoly
 ```
 
 ## Usage
